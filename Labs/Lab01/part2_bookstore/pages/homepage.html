@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Page Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+        header {
+            background-color:rgb(177, 27, 27);
+            color: black;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: right;
+            gap: 30px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: Yellow;
+            text-decoration: none;
+            font-size: 2em;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #16a085;
+        }
+
+        section {
+            padding: 60px 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #home {
+            background-color: #3498db;
+            color: black;
+            text-align: center;
+        }
+
+        #home h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        #home p {
+            font-size: 20px;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        #about {
+            background-color: #ecf0f1;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #contact {
+            background-color: #ecf0f1;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        #contact p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color:rgb(177, 27, 27);
+            color: Yellow;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            #home h1 {
+                font-size: 40px;
+            }
+
+            #home p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Amazing Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Simon IT Solution INC</h1>
+        <p>We are passionate about creating stunning and user-friendly websites that make a difference. Explore our work and learn more about us!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a small team of creative professionals who believe in the power of beautiful and functional design. Our goal is to bring innovative ideas to life through code and design. We specialize in web development and user experience design, with a focus on clean, modern, and responsive websites.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to work with us, feel free to reach out!</p>
+        <p>Email: info@simoninc.com</p>
+        <p>Phone: 416 456-7890</p>
+    </section>
+    <footer>
+        <p>&copy; 2025@simonITsolutioninc.com. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
